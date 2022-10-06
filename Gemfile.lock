@@ -21,6 +21,7 @@ GEM
       ruby2_keywords (~> 0.0.1)
     nokogiri (1.13.6-x86_64-darwin)
       racc (~> 1.4)
+    pg (1.4.3)
     public_suffix (4.0.7)
     racc (1.6.0)
     rack (2.2.3.1)
@@ -72,6 +73,8 @@ PLATFORMS
 
 DEPENDENCIES
   capybara
+  pg (~> 1.4)
+  rack-test (~> 1.1)
   rspec
   selenium-webdriver
   sinatra
@@ -79,4 +82,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.2.15
+   2.3.23
